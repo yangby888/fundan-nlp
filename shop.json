@@ -1,0 +1,131 @@
+{
+ "shop": {
+  "name": "AI 玄学工坊 & 数字商品商店",
+  "homepage": "https://afdian.com/a/gfqyz",
+  "free_tarot": "http://101.34.82.140:18087/tarot.html",
+  "delivery": "全自动（付款后解锁内容秒到账）",
+  "updated": "2026-08-07"
+ },
+ "products": [
+  {
+   "id": "ai-loveletter",
+   "name": "AI 定制情书",
+   "price": 9.9,
+   "desc": "把称呼+小故事交给 AI，30秒生成专属情书（温柔/霸道/文艺/幽默四风格）",
+   "url": "https://afdian.com/a/gfqyz",
+   "page": "http://101.34.82.140:18087/intake?type=loveletter"
+  },
+  {
+   "id": "ai-nametest",
+   "name": "AI 宝宝取名测评",
+   "price": 6.9,
+   "desc": "姓氏+性别 → 3个高分候选名 + 五格逐项打分（天格/人格/地格/外格/总格）",
+   "url": "https://afdian.com/a/gfqyz",
+   "page": "http://101.34.82.140:18087/intake?type=nametest"
+  },
+  {
+   "id": "ai-tarot",
+   "name": "AI 塔罗三牌阵深度解读",
+   "price": 9.9,
+   "desc": "写下问题，AI 抽三张牌（过去-现在-未来）生成专属深度解读",
+   "url": "https://afdian.com/a/gfqyz",
+   "page": "http://101.34.82.140:18087/intake?type=tarot"
+  },
+  {
+   "id": "ai-wakeup",
+   "name": "AI 骂醒恋爱脑·清醒信",
+   "price": 3.9,
+   "desc": "写下故事，AI 生成扎心但救命的定制清醒信+行动清单",
+   "url": "https://afdian.com/a/gfqyz",
+   "page": "http://101.34.82.140:18087/intake?type=wakeup"
+  },
+  {
+   "id": "ppt-dabian",
+   "name": "毕业答辩PPT模板",
+   "price": 9.9,
+   "desc": "12页科技深蓝风毕业答辩PPT模板",
+   "url": "http://101.34.82.140:18087/毕业答辩PPT模板-科技深蓝风.zip",
+   "page": "http://101.34.82.140:18087/p/ppt-dabian.html"
+  },
+  {
+   "id": "ppt-shangwu",
+   "name": "商务汇报PPT模板",
+   "price": 9.9,
+   "desc": "10页深色科技风商务汇报PPT模板",
+   "url": "http://101.34.82.140:18087/商务汇报PPT模板-深色科技风.zip",
+   "page": "http://101.34.82.140:18087/p/ppt-shangwu.html"
+  },
+  {
+   "id": "ppt-luyan",
+   "name": "产品路演PPT模板",
+   "price": 9.9,
+   "desc": "8页深蓝渐变风产品路演PPT模板",
+   "url": "http://101.34.82.140:18087/产品路演PPT模板-深蓝渐变风.zip",
+   "page": "http://101.34.82.140:18087/p/ppt-luyan.html"
+  },
+  {
+   "id": "ppt-nianzhong",
+   "name": "年终总结PPT模板",
+   "price": 9.9,
+   "desc": "10页深色科技风年终总结PPT模板",
+   "url": "http://101.34.82.140:18087/年终总结PPT模板-深色科技风.zip",
+   "page": "http://101.34.82.140:18087/p/ppt-nianzhong.html"
+  },
+  {
+   "id": "ppt-shuzhi",
+   "name": "述职报告PPT模板",
+   "price": 9.9,
+   "desc": "10页完整结构述职报告PPT模板",
+   "url": "http://101.34.82.140:18087/述职报告PPT模板.zip",
+   "page": "http://101.34.82.140:18087/p/ppt-shuzhi.html"
+  },
+  {
+   "id": "resume",
+   "name": "简历模板包",
+   "price": 6.9,
+   "desc": "3套高通过率HTML简历模板",
+   "url": "http://101.34.82.140:18087/简历模板包-3套.zip",
+   "page": "http://101.34.82.140:18087/p/resume.html"
+  },
+  {
+   "id": "tutorial-phone",
+   "name": "老人智能手机教程",
+   "price": 9.9,
+   "desc": "8章图文+语音版，教爸妈用手机",
+   "url": "http://101.34.82.140:18087/老人智能手机大字教程.zip",
+   "page": "http://101.34.82.140:18087/p/tutorial-phone.html"
+  },
+  {
+   "id": "guide-pension",
+   "name": "养老金认证指南",
+   "price": 9.9,
+   "desc": "掌上12333/电子社保卡认证全流程",
+   "url": "http://101.34.82.140:18087/养老金认证操作指南.zip",
+   "page": "http://101.34.82.140:18087/p/guide-pension.html"
+  },
+  {
+   "id": "guide-fraud",
+   "name": "老人防诈骗指南2026",
+   "price": 9.9,
+   "desc": "大字版防诈骗指南+语音版",
+   "url": "http://101.34.82.140:18087/老人防诈骗指南.zip",
+   "page": "http://101.34.82.140:18087/p/guide-fraud.html"
+  },
+  {
+   "id": "meeting",
+   "name": "会议纪要模板包",
+   "price": 4.9,
+   "desc": "3套会议纪要模板，Word直接复制",
+   "url": "http://101.34.82.140:18087/会议纪要模板包.zip",
+   "page": "http://101.34.82.140:18087/p/meeting.html"
+  },
+  {
+   "id": "ai-system",
+   "name": "AI自动赚钱系统·代搭服务",
+   "price": 299.0,
+   "desc": "整套全自动售卖系统代搭（商品/支付/自动交付/SEO引流）",
+   "url": "https://afdian.com/a/gfqyz",
+   "page": "http://101.34.82.140:18087/p/ai-system.html"
+  }
+ ]
+}
