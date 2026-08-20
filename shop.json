@@ -126,6 +126,15 @@
       "desc": "把本店这套已跑通的AI自动售卖系统复制给你：需求雷达自动造货、自动上架、webhook自动交付、日报自动记账，成本≈0毛利≈100。本店15商品就是这个系统的运行实例。",
       "url": "https://afdian.com/a/gfqyz",
       "page": "http://ai.ywtechai.cn:18087/p/ai-system.html"
+    },
+    {
+      "name": "AI 亲情陪伴·暖心话术包（教你怎么跟父母说贴心话）",
+      "price": "9.9",
+      "desc": "给父母定制一套会说话的孩子：按性格定制破冰话术+3大场景贴心话+每周陪伴计划，填表单30秒生成",
+      "url": "https://afdian.com/a/gfqyz",
+      "category": "银发",
+      "delivery": "intake表单自动生成",
+      "intake": "companion"
     }
   ],
   "github": {
