@@ -135,6 +135,15 @@
       "category": "银发",
       "delivery": "intake表单自动生成",
       "intake": "companion"
+    },
+    {
+      "name": "AI 记忆相册·父母的时光故事书（专属定制）",
+      "price": "12.9",
+      "desc": "把父母一生写成专属故事书：高光时刻+孩子的心声，填表单30秒生成",
+      "url": "https://afdian.com/a/gfqyz",
+      "category": "银发",
+      "delivery": "intake表单自动生成",
+      "intake": "memorial"
     }
   ],
   "github": {
