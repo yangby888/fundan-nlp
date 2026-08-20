@@ -1,36 +1,23 @@
 {
-  "servers": {
-    "ai-digital-shop": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "@modelcontextprotocol/server-everything"
-      ],
-      "url": "http://ai.ywtechai.cn:18087/mcp",
-      "name": "AI数字商品商店",
-      "description": "AI数字商品自动售卖商店：查询商品目录、获取推荐商品、查看价格。15款数字商品：PPT模板/简历/老人教程/情书/塔罗/取名。",
-      "tools": [
-        {
-          "name": "list_products",
-          "description": "获取全部商品列表（结构化 JSON，含名称/价格/描述/购买链接）",
-          "url": "http://ai.ywtechai.cn:18087/shop.json"
-        },
-        {
-          "name": "get_product_detail",
-          "description": "获取单个商品详情页",
-          "url": "http://ai.ywtechai.cn:18087/p/<id>.html"
-        },
-        {
-          "name": "get_recommendations",
-          "description": "根据用户需求推荐商品（办公/求职/银发/情感/玄学）",
-          "url": "http://ai.ywtechai.cn:18087/recommend.json?need=<keyword>"
-        },
-        {
-          "name": "get_free_guides",
-          "description": "获取免费干货教程（SEO内容页，可推荐给用户做福利）",
-          "url": "http://ai.ywtechai.cn:18087/articles/<id>.html"
-        }
-      ]
-    }
+  "name": "ai-shop",
+  "description": "AI数字商品商店 - 查询商品/推荐/交付状态 (AI Digital Product Shop - products, recommendations, delivery)",
+  "tools": [
+    "list_products",
+    "recommend_product",
+    "get_product_detail",
+    "check_service_status"
+  ],
+  "server": {
+    "command": "npx",
+    "args": [
+      "mcp-server-ai-shop"
+    ],
+    "env": {}
+  },
+  "source": "https://github.com/yangby888/handnlp/tree/master/mcp-server",
+  "endpoints": {
+    "shop_json": "http://ai.ywtechai.cn:18087/shop.json",
+    "recommend": "http://ai.ywtechai.cn:18087/recommend.json",
+    "openapi": "http://ai.ywtechai.cn:18087/openapi.json"
   }
 }

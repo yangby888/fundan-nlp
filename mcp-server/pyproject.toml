@@ -1,0 +1,12 @@
+[project]
+name = "ai-shop-mcp-server"
+version = "0.1.0"
+description = "MCP server for AI Digital Product Shop - search products, recommend items, check delivery status"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.0.0",
+    "httpx>=0.27.0",
+]
+
+[project.scripts]
+ai-shop-mcp = "ai_shop_mcp.server:main"
