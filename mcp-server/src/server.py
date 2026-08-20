@@ -28,7 +28,7 @@ def list_products() -> list[dict[str, Any]]:
 @mcp.tool()
 def recommend_product(need: str) -> dict[str, Any]:
     """按用户需求推荐商品。need: 用户想买什么(如"答辩PPT""老人手机教程""情书""塔罗")"""
-    r = httpx.post(f"{SHOP_BASE}/recommend.json", json={"need": need}, timeout=15)
+    r = httpx.get(f"{SHOP_BASE}/recommend", params={"need": need}, timeout=15)
     r.raise_for_status()
     return r.json()
 
